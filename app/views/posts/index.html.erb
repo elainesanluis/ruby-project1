@@ -1,0 +1,31 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>crudstreet</h1>
+<h4>by E</h4>
+<div class="search-bar">
+  <div class="search-bar-w">
+  <p class="search-bar-what">What</p>
+  <p class="search-bar-where">Where</p>
+  </div>
+  <div class="search-bar-form">
+  <p class="enter">Enter Keywords<p>
+  <P class="classification">Any classification</p>
+  <p class="city">Enter suburb, city or region</p>
+  <p class="seek">SEEK</p>
+  </div>
+<br>
+<br>
+<br>
+</div>
+
+<br>
+<div id="posts">
+  <% @posts.each do |post| %>
+    <%= render post %>
+    <p>
+      <%= link_to "Show this post", post %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New post", new_post_path %>
