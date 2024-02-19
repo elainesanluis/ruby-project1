@@ -1,4 +1,18 @@
-<h1>Editing post</h1>
+<div class="crud-header">
+<h1>crudstreet</h1>
+<h4>by E</h4>
+</div>
+
+<div class="login-div">
+<p class="login">Login</p>
+<p class="login-emp">Employer Site</p>
+</div>
+<br>
+<br>
+<div class="search-bar2">
+<br>
+<div class="crud-div">
+<h2>Editing post</h2>
 
 <%= render "form", post: @post %>
 
@@ -7,4 +21,5 @@
 <div>
   <%= link_to "Show this post", @post %> |
   <%= link_to "Back to posts", posts_path %>
+</div>
 </div>

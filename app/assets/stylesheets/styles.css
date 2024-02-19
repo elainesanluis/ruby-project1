@@ -49,8 +49,18 @@ body {
   }
 
 .search-bar {
-    background-color: rgb(24, 24, 70);
+  background-color: rgb(24, 24, 70);
 }
+
+.search-bar2 {
+  position: relative;
+  top: 5%;
+  left: auto;
+  background-color: rgb(24, 24, 70);
+  height: 5px;
+  margin-bottom: 100px;
+}
+
 
 .search-bar-w {
     display: flex;
@@ -114,4 +124,70 @@ body {
     padding-top: 15.5px;
     padding-bottom: 15.5px;
     border-radius: 5px;
+}
+
+.login-div {
+  display: flex;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  justify-content: space-between;
+  color: rgb(24, 24, 70);
+  font-weight: 600;
+  padding: 20px 20px 20px 20px;
+}
+
+.login {
+  color: rgb(24, 24, 70);
+  border: solid rgb(24, 24, 70);
+  margin-right: 5px;
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+}
+
+.login-emp {
+  color: rgb(24, 24, 70);
+  border: white;
+  margin-right: 30px;
+  padding: 10px 30px 10px 30px;
+}
+
+button {
+  padding: 10px 10px 10px 10px;
+  background-color: white;
+  border: solid rgb(24, 24, 70);
+  border-radius: 5px;
+}
+
+.crud-div {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  right: 5%;
+  padding: 10px 10px 10px 10px;
+}
+
+.crud-header {
+  position: relative;
+  top: 2%;
+  left: 2%;
+  margin-bottom: 5px;
+}
+
+.content-box {
+  width: 1000px;
+  height: 200px;
+}
+
+.username-box, .title-box {
+  width: 500px;
+  height: auto;
+}
+
+.notif {
+  position: relative;
+  top: 5%;
+  left: 2%;
+  margin-bottom: 5px;
+  font-weight: 700;
 }

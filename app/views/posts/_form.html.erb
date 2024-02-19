@@ -13,24 +13,25 @@
 
   <div>
     <%= form.label :username, style: "display: block" %>
-    <%= form.text_field :username %>
+    <%= form.text_field :username, class: "username-box" %>
   </div>
-
+  <br>
   <div>
     <%= form.label :title, style: "display: block" %>
-    <%= form.text_field :title %>
+    <%= form.text_field :title, class: "title-box" %>
   </div>
-
+  <br>
   <div>
     <%= form.label :content, style: "display: block" %>
-    <%= form.text_field :content %>
+    <%= form.text_area :content, class: "content-box" %>
   </div>
-
+  <br>
   <div>
     <%= form.label :salary, style: "display: block" %>
     <%= form.text_field :salary %>
   </div>
-
+  <br>
+  <br>
   <div>
     <%= form.submit %>
   </div>
