@@ -191,3 +191,23 @@ button {
   margin-bottom: 5px;
   font-weight: 700;
 }
+
+.apply-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.apply {
+  background-color: rgb(190, 67, 160);
+  color: white;
+  font-weight: 700;
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+}
+
+.save {
+  background-color: inherit;
+  color: rgb(24, 24, 70);
+  padding: 10px 30px 10px 30px;
+  font-weight: 700;
+}
